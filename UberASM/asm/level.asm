@@ -299,8 +299,8 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl $10BA07
-dl null_pointer
+dl $10BAE6
+dl $10BC8E
 dl null_pointer
 dl null_pointer
 dl null_pointer
@@ -1329,7 +1329,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl $10BA4C
+dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer

@@ -1,4 +1,14 @@
 main:	
+; Color Math
+LDA #$3F	; enable color math on everything
+	STA $40
+	LDA #$00	; use background color instead of subscreen layers
+	STA $44
+	LDA #$1F	; Put all layers on the main screen
+	STA $212C	
+	LDA #$00	; No layers on subscreen
+	STA $212D
+
 	REP #$20	; 16 bit A
 	LDA #$0000	; $43X0 = 00 
 	STA $4330	; $43x1 = 00
@@ -13,20 +23,35 @@ main:
 	RTL		; retur
 
 LVL1BRIGHT:
-db $0C,$0F
-db $0C,$0E
-db $0C,$0D
-db $0C,$0C
-db $0C,$0B
-db $0C,$0A
-db $0C,$09
-db $0C,$08
-db $0C,$07
-db $0C,$06
-db $0C,$05
-db $0C,$04
-db $0C,$03
-db $0C,$02
-db $0C,$01
-db $0C,$00
+db $03,$00
+db $03,$00
+db $03,$00
+db $03,$01
+db $03,$01
+db $03,$01
+db $03,$02
+db $03,$02
+db $03,$02
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$04
+db $80,$04
+db $03,$04
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$03
+db $03,$02
+db $03,$02
+db $03,$02
+db $03,$02
+db $03,$01
+db $03,$01
+db $03,$01
+db $03,$00
+db $03,$00
 db $00
