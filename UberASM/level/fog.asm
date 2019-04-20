@@ -20,38 +20,9 @@ LDA #$3F	; enable color math on everything
 	SEP #$20	; 8 bit A
 	LDA #$08	; Enable HDMA on channel 3
 	TSB $6D9F	;
-	RTL		; return
+	RTL		; retur
 
 LVL1BRIGHT:
-db $03,$00
-db $03,$00
-db $03,$00
-db $03,$01
-db $03,$01
-db $03,$01
-db $03,$02
-db $03,$02
-db $03,$02
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$04
-db $80,$04
-db $03,$04
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$03
-db $03,$02
-db $03,$02
-db $03,$02
-db $03,$02
-db $03,$01
-db $03,$01
-db $03,$01
-db $03,$00
-db $03,$00
+db $40,$08
+db $40,$09
 db $00

@@ -2,4 +2,6 @@
 *.sfc 
 *.smc
 *.SFC
+*.srm
+*.SRM
 *.bak
