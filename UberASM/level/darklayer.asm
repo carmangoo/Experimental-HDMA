@@ -1,14 +1,4 @@
 main:	
-; Color Math
-LDA #$3F	; enable color math on everything
-	STA $40
-	LDA #$00	; use background color instead of subscreen layers
-	STA $44
-	LDA #$1F	; Put all layers on the main screen
-	STA $212C	
-	LDA #$00	; No layers on subscreen
-	STA $212D
-
 	REP #$20	; 16 bit A
 	LDA #$0000	; $43X0 = 00 
 	STA $4330	; $43x1 = 00

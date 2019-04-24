@@ -1,1 +1,1 @@
-dummy2_init = $10B9A1
+dummy2_init = $12FFF5
