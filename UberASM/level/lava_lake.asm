@@ -1,5 +1,4 @@
 init:
-
    REP #$20                             ; | 
    LDA #$0F42                           ; | Use indeirect and mode 2 on register 210F
    STA $4340                            ; | 4340 = Mode, 4341 = Register
@@ -20,9 +19,8 @@ init:
 	STY $4334
    SEP #$20  
 
-	LDA #$38
+	LDA #$18
 	TSB $6D9F
-
 
    LDA #$17    ;\  BG1, BG2, BG3, OBJ on main screen (TM)
    STA $212C   ; | 
@@ -44,10 +42,9 @@ init:
    db $2A : db $24   ; 
    db $13 : db $25   ; 
    db $00            ; 
+
 main:
-
-     REP #$20                             ;/  16 bit action starts here. (To load the x position of the BG)
-
+   REP #$20                             ;/  16 bit action starts here. (To load the x position of the BG)
    LDA $1E                              ;\  Load BG x Position
    LSR #3                               ; | Multiplied by 0.125
    STA $7F9E00                          ;/  Store to FreeRAM for indirect HDMA
@@ -60,7 +57,7 @@ main:
    LDA $1E                              ;\  Load BG x Position
    STA $7F9E06                          ;/  Store to FreeRAM for indirect HDMA
    SEP #$20                             ; Back to 8bit
-   RTL                                  ; Return
+   RTL
 
 ParallaxTable_105319667:                ;\  
    db $01 : dw $9E00                    ; | 
