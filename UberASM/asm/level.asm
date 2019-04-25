@@ -299,7 +299,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl $13A608
+dl $13A937
 dl null_pointer
 dl null_pointer
 dl null_pointer
@@ -813,7 +813,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl $13A5B7
+dl $13A8DD
 dl null_pointer
 dl null_pointer
 dl null_pointer
