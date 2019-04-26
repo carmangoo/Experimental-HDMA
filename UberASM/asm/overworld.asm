@@ -10,8 +10,8 @@ freecode
 ; Do not touch, nor move that.
 db "uber"
 OW_asm_table:
-dl null_pointer
-dl null_pointer
+dl $13A5F7
+dl $13A690
 dl null_pointer
 dl null_pointer
 dl null_pointer
@@ -19,8 +19,8 @@ dl null_pointer
 dl null_pointer
 
 OW_init_table:
-dl null_pointer
-dl null_pointer
+dl $13A5B7
+dl $13A675
 dl null_pointer
 dl null_pointer
 dl null_pointer
