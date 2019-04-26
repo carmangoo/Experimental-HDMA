@@ -299,7 +299,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl $13AD08
+dl $13A771
 dl null_pointer
 dl null_pointer
 dl null_pointer
@@ -571,6 +571,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
+dl $13A5B7
 dl null_pointer
 dl null_pointer
 dl null_pointer
@@ -809,12 +810,11 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
+dl $13A682
+dl $13A5E0
 dl null_pointer
-dl $13A64A
-dl null_pointer
-dl null_pointer
-dl $13ACAE
-dl $138848
+dl $13A717
+dl $13AA3F
 dl null_pointer
 dl null_pointer
 dl null_pointer

@@ -7,8 +7,11 @@ verbose: on
 level:
 
 105		lava_lake.asm
-106     clean.asm
+106     morning.asm
+103     day.asm
 102     sunset.asm
+13      ghost.asm
+15      waterfall.asm
 
 ; OW list. Valid values: 0 = Main map; 1 = Yoshi's Island; 2 = Vanilla Dome;
 ; 3 = Forest of Illusion; 4 = Valley of Bowser; 5 = Special World; and
