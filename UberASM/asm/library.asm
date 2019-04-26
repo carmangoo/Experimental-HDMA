@@ -1,1 +1,1 @@
-dummy2_init = $12FFF5
+dummy2_init = $12FFEC
