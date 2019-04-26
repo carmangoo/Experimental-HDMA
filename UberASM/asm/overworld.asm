@@ -25,7 +25,7 @@ dl null_pointer
 dl null_pointer
 dl null_pointer
 dl null_pointer
-dl null_pointer
+dl $13A6EB
 
 OW_nmi_table:
 db "tool"

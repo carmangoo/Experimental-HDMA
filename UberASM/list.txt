@@ -13,7 +13,10 @@ level:
 13      ghost.asm
 15      waterfall.asm
 16      nightsky.asm
-17      lava_lake.asm
+17      rainy.asm
+101     castle.asm
+1FC     castle.asm
+130     winter1.asm
 
 ; OW list. Valid values: 0 = Main map; 1 = Yoshi's Island; 2 = Vanilla Dome;
 ; 3 = Forest of Illusion; 4 = Valley of Bowser; 5 = Special World; and
@@ -21,6 +24,7 @@ level:
 overworld:
 0 red.asm
 1 desert.asm
+6 winter.asm
 
 ; Game mode list. Valid values: 00-FF.
 gamemode:
